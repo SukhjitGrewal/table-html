@@ -1,0 +1,116 @@
+html {
+  background: #0c6c9d;
+}
+
+body {
+  text-align: center;
+  width: 700px;
+  padding: 30px 50px;
+  margin: 20px auto;
+  border-radius: 20px;
+  background: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* Selects all <td> that are descendents of #table1 */
+#table1 {
+  border: 1px solid red;
+  margin: 30px auto;
+}
+
+#table1 td {
+  border: 1px dotted blue;
+  padding: 10px;
+}
+
+#row-1 {
+  background-color: #053561;
+  color: white;
+}
+
+.block {
+  background: black;
+  color: white;
+}
+
+.time {
+  font-size: 8px;
+  font-style: italic;
+}
+
+.subject:hover {
+  background: #06413a;
+  color: white;
+  cursor: cell;
+  font-size: 12px;
+
+  transition: font-size 0.5s, background 0.5s, color 0.5s;
+}
+
+#table-2 {
+  background-color: #0c6c9d;
+  padding: 25px 35px;
+  border-radius: 50px;
+  border: 0px;
+  margin: auto;
+}
+
+#table-2 img {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#p2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#lunch {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+#table3 td {
+  font-family: serif;
+  background-color: #84cbea;
+  border: 1px solid black;
+}
+#table3 {
+  font-family: serif;
+  background-color: #84cbea;
+  border: 1px solid black;
+  filter: drop-shadow(5px 5px 5px grey);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+#table3-h1 {
+  font-family: serif;
+  color: #008b8b;
+}
+
+.SUB1 {
+  color: blue;
+}
+.SUB2 {
+  color: red;
+}
+
+.SUB3 {
+  color: pink;
+}
+
+.SUB4 {
+  color: darkred;
+}
+
+.SUB5 {
+  color: maroon;
+}
+.SWA {
+  color: brown;
+}
+
+caption {
+  background-color: #84cbea;
+}
